@@ -31,25 +31,22 @@ project/
 │── .gitignore
 │
 │── notebooks/
-│ ├── 0_data_loading_qc.ipynb
-│ ├── 1_preprocessing_hvg.ipynb
-│ ├── 2_cnn_feature_extraction.ipynb
-│ ├── 3_graph_construction_training.ipynb
-│ ├── 4_clustering_annotation.ipynb
-│ └── 5_pathway_analysis.ipynb
+│ ├── 1_Data_loading_preprocessing_hvg.ipynb
+│ ├── 2_CNN_feature_extraction.ipynb
+│ ├── 3_Graph_model_construction.ipynb
+│ └── 4_Clustering_annotation_and_pathway_analysis.ipynb
 │
 │── models/
-│ └── resnet18_modified.pth
-│
-│── scripts/
-│ ├── image_patch_extraction.py
-│ ├── cnn_feature_extractor.py
-│ ├── graph_model.py
-│ └── utils.py
+│ └── CNN_embeddings.npy
 │
 └── dataset/
 │ ├── raw/
+│ ├── HumanOvarianCancerPatient2Slice2_cell_by_gene.csv
+│ ├── HumanOvarianCancerPatient2Slice2_cell_metadata.csv
 │ ├── processed/
+│ ├── adata_500.h5ad
+│ ├── adata_hvg_with_CNN_embeddings.h5ad
+│ └── adata_with_graph_embeddings.h5ad
 │ └── images/
 ```
 
