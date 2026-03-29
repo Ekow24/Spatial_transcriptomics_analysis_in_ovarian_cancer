@@ -1,4 +1,4 @@
-# Multimodal Spatial Transcriptomics Analysis: Integrating Gene Expression, Imaging, and Graph Learning for Cell-Type Identification
+# Graph Transformer-Based Integration of MultiplexSpatial Transcriptomics and Morphology for Tumor Microenvironment Analysis​
 
 This repository contains a complete pipeline for analyzing **spatial transcriptomics data** using **gene expression**, **morphological imaging features**, and **graph-based deep learning**. The workflow integrates multimodal data at the single-cell level to identify biologically meaningful cell populations and spatial tissue structure.
 
